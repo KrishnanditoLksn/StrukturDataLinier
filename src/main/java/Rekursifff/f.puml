@@ -1,0 +1,5 @@
+@startuml
+class Matematika{
++{static}faktorialrekursif(int a) : int
+}
+@enduml
