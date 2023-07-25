@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/class-diagram
+class Stack{
+-int front , size
+-int element : []
++Stack()
++Stack(x : int)
++push(element : int) : boolean
++pop(): int
++isEmpty ():boolean
++size():int
++toString():String
+}
+class StackMain{
++ {static}main(args: String[]): void
+}
+Stack *--StackMain
+@enduml
