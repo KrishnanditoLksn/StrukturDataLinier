@@ -22,7 +22,7 @@ class ListNode  {
         this.next = null;
         this.previous = null;
     }
-
+/*
     ListNode(int element, ListNode next, ListNode previous) {
         this.Element = element;
         this.next = next;
@@ -33,5 +33,5 @@ class ListNode  {
         this.Element = element;
         this.next = next;
         this.previous = previous;
-    }
+    }*/
 }
