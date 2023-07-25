@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ListNode{
+~element : Object
+~next : ListNode
+~prev  : ListNode
+<<constructor>>
+~ListNode()
+~ListNode(int)
+~ListNode(int , ListNode,ListNode)
+}
+
+class LinkedList{
+-head : ListNode
+-size : int
+
+<<constructor>>
+~LinkedList()
+-addBefore(int , ListNode) : void
++addFirst(int) : void
++addLast(int):void
++removeFirst() : int
++removeLast():int
++search(Object):ListNode
++size():int
++isEmpty():boolean
++toString():String
+}
+@enduml
